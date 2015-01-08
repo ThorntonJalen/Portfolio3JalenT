@@ -8,4 +8,10 @@
 $("documents").ready(function(){
     $(".Money").css("background-color","gray");
     
+    $('p:last').css('color', 'red');
+    
+    $('p:gt(1)').css('border-style', 'solid');
+    
+    $('div:last p:nth-child(3)').css('background-color','cyan')
+    
 });
