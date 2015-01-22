@@ -41,7 +41,7 @@ function addAPara(){
 }
 
 function replaceWText(){
-    $('#replaceWText').text('');
+    $('#replaceWText').text('BOSS');
 }
 
 function mouseOverMe(){
