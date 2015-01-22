@@ -30,6 +30,8 @@ $('document').ready(function(){
     $('#removePara').bind('click', removeAPara);
 });
 
+
+
 function removeAPara(){
     $('#randPara p:last').remove();
 }
@@ -43,7 +45,7 @@ function replaceWText(){
 }
 
 function mouseOverMe(){
-    $('h1').html('Project');
+    $('h1').html('page');
 }
 
 function mouseOutMe(){
@@ -54,3 +56,4 @@ function mouseClick(){
     
     $('p').html('DO U LIKE IT?');
 }
+
